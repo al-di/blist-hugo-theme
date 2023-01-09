@@ -1,7 +1,6 @@
 {{ if or (eq "de" .language.Lang) (eq "fr" .language.Lang) }}
   {{ if eq "long" .format }}
-    {{ i18n (.date.Format "January")}} {{ .date.Format "2006"}}
-    <!-- !!!! {{ .date.Format "02" }}. {{ i18n (.date.Format "January")}} {{ .date.Format "2006"}}-->
+    {{ .date.Format "02" }}. {{ i18n (.date.Format "January")}} {{ .date.Format "2006"}}
   {{ else }}
     {{ .date.Format "02" }}. {{ substr (i18n (.date.Format "January")) 0 3 }} {{ .date.Format "06"}}
   {{ end }}

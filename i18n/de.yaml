@@ -1,6 +1,7 @@
 # Content
 - id: postedOnDate
-  translation: "Gepostet am {{ . }}"
+  translation: "Gepostet im {{ . }}"
+  # !!!!! translation: "Gepostet am {{ . }}"
 - id: lastModified
   translation: "(Zuletzt geändert am {{ . }})"
 - id: translationsLabel
