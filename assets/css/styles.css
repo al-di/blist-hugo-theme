@@ -4,6 +4,8 @@
 @import "node_modules/tailwindcss/components";
 /* Site Specific */
 @import "assets/css/site";
+@import "assets/css/custom";
+
 /* Paginator */
 @import "assets/css/paginator";
 /* Tailwind's utility classes - generated based on config file */
@@ -52,4 +54,5 @@
   a:empty {
     display: none;
   }
+
 }
